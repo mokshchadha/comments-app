@@ -4,9 +4,21 @@ import CommentDetails from "./CommentDetails";
 function App() {
   return (
     <div className="ui container comments">
-      <CommentDetails />
-      <CommentDetails />
-      <CommentDetails />
+      <CommentDetails
+        author="Billy"
+        time="12:00 PM"
+        text="Nice post lads......"
+      />
+      <CommentDetails
+        author="M.M."
+        time="12:00 PM"
+        text="Nice content my nigger"
+      />
+      <CommentDetails
+        author="Frenchie"
+        time="12:00 PM"
+        text="Oui Great Content!"
+      />
     </div>
   );
 }
