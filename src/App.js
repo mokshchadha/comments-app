@@ -13,7 +13,7 @@ function App() {
             SAM
           </a>
           <div className="metadata">
-            <span className="date"> Today at 4</span>
+            <span className="date"> Today at 4:00</span>
           </div>
           <div className="text">NIce blog post</div>
         </div>
